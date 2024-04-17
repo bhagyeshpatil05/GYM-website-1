@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagyesh's GYM</title>
+    <style>
+        
+        body {
+            color: white;
+            margin: 0px;
+            background-color: #686868;
+        }
+
+        .header {
+            background-color: #010101;
+            border: 2px solid black;
+            height: 90px;
+            border-radius: 25px;
+            margin: 0px;
+            padding: 0px;
+            top: 0px;
+        }
+
+        .left {
+            position: absolute;
+            margin: 5px;
+            padding: 0px;
+            left: 0px;
+            top: 0px;
+        }
+
+        .mid {
+            top: 5px;
+            display: block;
+            width: 600px;
+            left: 300px;
+            margin: 30px auto 15px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 45px;
+            top: 25px;
+        }
+
+        .left img {
+            width: 95px;
+
+        }
+
+        .mid li {
+            /* float: left; */
+            list-style: none;
+            margin: auto 25px;
+            display: inline-block;
+
+        }
+
+        .mid li a {
+            color: white;
+            text-decoration: none;
+            font-size: 21px;
+        }
+
+        .mid li :hover {
+            text-decoration: solid;
+            color: #780001;
+            font-size: 25px;
+        }
+
+        .button {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: rgb(69, 69, 69);
+            margin: 5px;
+            padding: 5px 30px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: rgb(58, 57, 57);
+            color: rgb(30, 30, 30);
+
+        }
+        #img1{
+            margin: 25px;
+        }
+        #img1 img{
+            position: absolute;
+            width: 345px;
+            border: 3px solid white;
+            border-radius: 25px;
+            top: 820px;
+        
+        }
+        #img2{
+            position: absolute;
+            margin: 25px;
+            left: 400px;
+            top: 920px;
+            
+        }
+        #img2 img{
+            width: 345px;
+            border: 3px solid white;
+            border-radius: 25px;
+        }
+        #img3{
+            position: absolute;
+            margin: 25px;
+            left: 795px;
+            top: 1000px;
+        }
+        #img3 img{
+            width: 640px;
+            border: 3px solid white;
+            border-radius: 25px;
+            
+        }
+        .dis{
+           
+            text-align: center;
+           font-size: 25px;
+            height: 350px;
+            top: 850px;
+            width: 1050px;
+            left: 220px;
+            position: absolute;
+            z-index: 2;
+            top: 110px;
+            /* color: white; */
+        }
+        .discount{
+            border: 5px solid #780001;
+            border-radius: 20px;
+            text-align: center;
+           font-size: 25px;
+           z-index: 2;
+           position: absolute;
+           top: 480px;
+           left: 375px;
+           width: 750px;
+        }
+        .bimg{
+           width: 1513px;
+           height: 750px;
+           position:absolute;
+           z-index: -1;
+            background-image: url(GYMbackground.jpg);
+            background-size: cover;
+            background-repeat: none;
+        }
+        .bimg2{
+            top: 751px;
+            width: 1513px;
+           height: 750px;
+           position:absolute;
+           z-index: -1;
+            background-image: url(Gym7.jpg);
+            background-size: cover;
+            background-repeat: none;
+            opacity: 0.9;
+        }
+      
+        button a{
+            color: white;
+            text-decoration: none;
+            font-size: 21px;
+        }
+        #head{
+            color: black;
+        }
+        .text{
+            position: absolute;
+            z-index: 2;
+            top: 745px;
+            left: 25px; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bimg"></div>
+    <div class="bimg2"></div>
+    <header class="header">
+        <div class="left">
+            <img src="photoes\GYM1 logo.png" alt="">
+        </div>
+        <div class="mid">
+            <ul>
+                <li class="line"> <a href="">home</a> </li>
+                <li class="line"> <a href="">Login</a> </li>
+                <li class="line"> <a href="">About us</a> </li>
+                <li class="line"> <a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="button"> get call </button>
+            <button class="button"> E-mail </button>
+        </div>
+    </header>
+   <div class="dis">
+    <h1 id="head">Our Program</h1>
+    <p>The diverse range of programs, from group exercises, corporate training to personalized training, caters to varying fitness levels and goals. Members get variety and the option of customization as each gym offers a diversity of exercise options and specialized programs, allowing members to choose activities that align with their interests and fitness objectives. Personalized training programs ensure workouts are tailored to individual needs, maximizing results. Participating in group exercises fosters a sense of community among members, providing social support and encouragement, which can be instrumental in maintaining consistency in their fitness journey.</p>
+   </div>
+   <div class="discount">
+    <h1 > To Get 20% Discount register Now </h1>
+    <p>register now to our gym to get the discount and many goodies  </p>
+    <button class="button" ><a href="GYM.html">Register Now</a></button>
+   </div>
+   <div class="text">
+    <h1>Some glimpse:</h1>
+   </div>
+    <div id="img1">
+        <img src="photoes\GYM1.jpg" alt="">
+    </div>
+    <div id="img2">
+        <img src="photoes\GYM3.jpg" alt="">
+    </div>
+    <div id="img3">
+        <img src="photoes\GYM2.jpg" alt="">
+    </div>
+   
+</body>
+
+</html>

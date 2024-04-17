@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagyesh's GYM Registration</title>
+    <style>
+        body {
+            color: white;
+            background-image: url(photo1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .left {
+            position: absolute;
+            margin: 0px;
+            padding: 0px;
+            left: 0px;
+            top: 0px;
+        }
+
+        .mid {
+            top: 5px;
+            display: block;
+            width: 525px;
+            left: 300px;
+            margin: 15px auto 15px auto; 
+            
+
+        }
+
+        .right {
+            position: absolute;
+            right: 45px;
+            top: 25px;
+        }
+
+        img {
+            width: 115px;
+
+        }
+
+        .mid li {
+            /* float: left; */
+            list-style: none;
+            margin: auto 25px;
+            display: inline-block;
+        }
+
+        .mid li a {
+            color: white;
+            text-decoration: none;
+            font-size: 21px;
+        }
+
+        .mid li :hover {
+            text-decoration: underline;
+            color: rgb(101, 101, 101);
+        }
+
+        .button {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: rgb(69, 69, 69);
+            margin: 5px;
+            padding: 5px 30px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: rgb(58, 57, 57);
+            color: rgb(30, 30, 30);
+
+        }
+
+        .container {
+            border: 3px solid white;
+            border-radius: 15px;
+            backface-visibility: visible;
+            backdrop-filter: blur(3px);
+            color: gold;
+            width: 650px;
+            height: 600px;
+            margin: auto;
+            margin-top: 65px;
+            padding: 15px 15px;
+            text-align: center;
+            
+
+        }
+        .form {
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+            width: 300px';
+        }
+        input{
+            width: 400px;
+            height: 45px;
+            background-color: rgb(66, 65, 65);
+            color: #6c6b6b;
+            font-size: large;
+        }
+        #b1{
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="photoes\GYM1 logo.png" alt="">
+        </div>
+        <div class="mid">
+            <ul>
+                <li class="line"> <a href="">home</a> </li>
+                <li class="line"> <a href="">Login</a> </li>
+                <li class="line"> <a href="">About us</a> </li>
+                <li class="line"> <a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="button"> get call </button>
+            <button class="button"> E-mail </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Details of the GYM membership </h1>
+        <form action="notation.php">
+                <div class="form">
+                    <input type="text" name="" id="form1" placeholder="Enter your name">
+                </div>
+                <div class="form">
+                    <input type="text" name="" id="form2" placeholder="Enter your address">
+                </div>
+                <div class="form">
+                    <input type="number" name="" id="form3" placeholder="contact detail">
+                </div>
+                <div class="form">
+                    <input type="date" name="" id="form4" placeholder="date of joining">
+                </div>
+                <div class="form">
+                    <input type="date" name="" id="form5" placeholder="date of expiring">
+                </div>
+                <div>
+                    <button class="button" id="b1">
+                        Submit
+                    </button>
+                </div>
+            
+        </form>
+
+    </div>
+
+</body>
+
+</html>
